@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.about-section {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.about-section:hover {
+    background-color: #ff7e5f;
+}
+
+#myButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#myButton:hover {
+    background-color: #45a049;
+}
+
+form input {
+    margin: 10px;
+    padding: 5px;
+}
+
+#feedback {
+    display: block;
+    margin-top: 5px;
+    color: red;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.slide {
+    display: none; /* Hide images initially */
+    width: 100%;
+    transition: opacity 1s ease-in-out;
+}
+
+.active {
+    display: block;
+    opacity: 1;
+}
